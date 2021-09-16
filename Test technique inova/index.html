@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- Bootsrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" 
+           rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+   
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <form class="container-fluid">
+                <div class="input-group">
+                    <input class="form-control me-2" type="search" placeholder="Type a country name" aria-label="Search">
+                    <button class="btn" type="submit">Search</button>
+                </div>
+            </form>
+        </nav>
+    </header>
+    <div class="row">
+        <div class="col-4">
+          <div class="list-group" id="list-tab" role="tablist"></div>
+          <script src="./assets/js/getAllCountries.js"></script>
+        </div>
+        <div class="col-8">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="" role="tabpanel" aria-labelledby="list-home-list">bienvenue</div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Jean</div>
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">tu n'as aucun message</div>
+            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">on peut t'aider ?</div>
+          </div>
+        </div>
+      </div>
+
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
